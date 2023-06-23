@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T16:26:20 IST" name="Suite" finished-at="2023-06-22T16:27:39 IST" duration-ms="78510">
+    <groups>
+    </groups>
+    <test started-at="2023-06-22T16:26:20 IST" name="chromeTest" finished-at="2023-06-22T16:26:46 IST" duration-ms="25975">
+      <class name="testngprgms.BrowserTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testngprgms.BrowserTest@59505b48]" started-at="2023-06-22T16:26:20 IST" name="setup" finished-at="2023-06-22T16:26:42 IST" duration-ms="21775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testing()[pri:0, instance:testngprgms.BrowserTest@59505b48]" started-at="2023-06-22T16:26:42 IST" name="testing" finished-at="2023-06-22T16:26:46 IST" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- testngprgms.BrowserTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-06-22T16:26:47 IST" name="firefoxTest" finished-at="2023-06-22T16:27:39 IST" duration-ms="51873">
+      <class name="testngprgms.BrowserTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testngprgms.BrowserTest@7161d8d1]" started-at="2023-06-22T16:26:47 IST" name="setup" finished-at="2023-06-22T16:27:28 IST" duration-ms="41158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testing()[pri:0, instance:testngprgms.BrowserTest@7161d8d1]" started-at="2023-06-22T16:27:28 IST" name="testing" finished-at="2023-06-22T16:27:39 IST" duration-ms="10704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- testngprgms.BrowserTest -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
